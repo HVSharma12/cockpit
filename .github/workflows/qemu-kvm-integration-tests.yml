@@ -134,7 +134,7 @@ jobs:
         if: steps.check_platform.outputs.supported
         run: >-
           curl -o ~/.config/linux-system-roles.json
-          https://raw.githubusercontent.com/linux-system-roles/linux-system-roles.github.io/master/download/linux-system-roles.json
+          https://raw.githubusercontent.com/HVSharma12/linux-system-roles.github.io/refs/heads/main/download/linux-system-roles.json
 
       - name: Run qemu integration tests
         if: steps.check_platform.outputs.supported && startsWith(matrix.scenario.env, 'qemu')
