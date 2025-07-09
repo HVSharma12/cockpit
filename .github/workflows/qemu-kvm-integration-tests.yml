@@ -27,6 +27,7 @@ jobs:
           # QEMU
           - { image: "centos-9", env: "qemu-ansible-core-2.16" }
           - { image: "centos-10", env: "qemu-ansible-core-2.17" }
+          - { image: "leap-15.6", env: "qemu-ansible-core-2.18" }
           # ansible/libdnf5 bug: https://issues.redhat.com/browse/RHELMISC-10110
           # - { image: "fedora-41", env: "qemu-ansible-core-2.17" }
           - { image: "fedora-42", env: "qemu-ansible-core-2.19" }
