@@ -24,7 +24,7 @@ jobs:
       fail-fast: false
       matrix:
         scenario:
-          # QEMU
+          # QEMU laep
           - { image: "centos-9", env: "qemu-ansible-core-2.16" }
           - { image: "centos-10", env: "qemu-ansible-core-2.17" }
           - { image: "leap-16", env: "qemu-ansible-core-2.18" }
